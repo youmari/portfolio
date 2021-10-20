@@ -4,6 +4,8 @@
 
 > My personal portfolio 
 
+![screenshot](./images/Screenshot.png)
+
 
 A personal portfolio where you can show your background 
     and your projects.
