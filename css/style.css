@@ -140,7 +140,7 @@ header {
 .project-img {
   height: 252px;
   width: 100%;
-  background-color: #ebf0ee; ;
+  background-color: #ebf0ee;
 }
 
 .project-titel-container {
@@ -196,4 +196,119 @@ header {
   background-color: #36b37e;
   border-radius: 4px;
   margin-top: 29px;
+  cursor: pointer;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-me-titel {
+  color: #172b4d;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+}
+
+.about-me-description {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  margin: 0;
+  color: #172b4d;
+}
+
+.about-me-descrip-container {
+  width: 327px;
+  height: 164px;
+  margin: 30px;
+}
+
+.get-my-resume-btn {
+  width: 159px;
+  height: 48px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  background-color: #36b37e;
+  border-radius: 4px;
+  margin-top: 29px;
+  cursor: pointer;
+}
+
+.main-about-me-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../images/about-me.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-bottom: 30px;
+}
+
+.skills-cards-container {
+  display: grid;
+  grid-template: repeat(3, 352px) / 327px;
+  gap: 24px;
+  box-sizing: border-box;
+}
+
+.skills-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #ebf0ee;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+}
+
+.skills-icon-container {
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  box-shadow: 0 16px 24px rgba(37, 47, 137, 0.08);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-card-titel {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #344563;
+}
+
+.skills-tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills-tag {
+  text-align: center;
+  background-color: #fff;
+  height: 32px;
+  border-radius: 4px;
+  padding: 0 12px 0 12px;
+  color: #36b37e;
+  font-style: normal;
+  font-size: 12px;
+  margin: 0 10px 0 10px;
+  line-height: 30px;
 }
