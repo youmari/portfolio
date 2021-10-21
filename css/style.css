@@ -200,6 +200,38 @@ header {
   cursor: pointer;
 }
 
+.project-btn:hover {
+  width: 122px;
+  height: 48px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  background-color: #36b37e;
+  border-radius: 4px;
+  margin-top: 29px;
+  cursor: pointer;
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+.project-btn:active {
+  width: 122px;
+  height: 48px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  background: #008552;
+  border-radius: 4px;
+  margin-top: 29px;
+  cursor: pointer;
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+}
+
 .about-me {
   display: flex;
   flex-direction: column;
@@ -246,6 +278,38 @@ header {
   border-radius: 4px;
   margin-top: 29px;
   cursor: pointer;
+}
+
+.get-my-resume-btn:hover {
+  width: 159px;
+  height: 48px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  background-color: #36b37e;
+  border-radius: 4px;
+  margin-top: 29px;
+  cursor: pointer;
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+.get-my-resume-btn:active {
+  width: 159px;
+  height: 48px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  background: #008552;
+  border-radius: 4px;
+  margin-top: 29px;
+  cursor: pointer;
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
 }
 
 .main-about-me-container {
@@ -387,6 +451,37 @@ header {
   line-height: 24px;
   color: #fff;
   background-color: #36b37e;
+  border-radius: 4px;
+  margin-top: 29px;
+  cursor: pointer;
+}
+
+.submit-form-btn:hover {
+  width: 129px;
+  height: 48px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  background-color: #36b37e;
+  border-radius: 4px;
+  margin-top: 29px;
+  cursor: pointer;
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+.submit-form-btn:active {
+  width: 129px;
+  height: 48px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  background: #008552;
   border-radius: 4px;
   margin-top: 29px;
   cursor: pointer;
