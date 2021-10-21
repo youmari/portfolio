@@ -84,3 +84,13 @@ header {
   width: 136px;
   list-style-type: none;
 }
+
+.go-to-main-btn {
+  height: 40px;
+  width: 40px;
+  border-radius: 32px;
+  background-color: #fff;
+  border: 1px solid #dfe1e6;
+  padding: 8px;
+  margin-top: 30px;
+}
