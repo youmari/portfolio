@@ -81,6 +81,358 @@ header {
   padding-left: 0;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   width: 136px;
   list-style-type: none;
+}
+
+.go-to-main-btn {
+  height: 40px;
+  width: 40px;
+  border-radius: 32px;
+  background-color: #fff;
+  border: 1px solid #dfe1e6;
+  padding: 8px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.my-recent-works {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.recent-works-titel {
+  color: #172b4d;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+}
+
+.green-line {
+  background-color: #36b37e;
+  border-radius: 42px;
+  width: 48px;
+  height: 4px;
+  margin-bottom: 30px;
+}
+
+.projects-container {
+  display: grid;
+  grid-template: repeat(6, 474px)/ 327px;
+  gap: 24px;
+}
+
+.projects-cards {
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+  height: 474px;
+  width: 327px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-img {
+  height: 252px;
+  width: 100%;
+  background-color: #ebf0ee;
+}
+
+.project-titel-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 16px;
+  width: 295px;
+  height: 57px;
+}
+
+.project-titel {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #3a4a42;
+  text-align: center;
+}
+
+.tags-container {
+  display: flex;
+  justify-content: center;
+  width: 305px;
+  height: 32px;
+  margin: 0 11px 0 11px;
+  padding: 0;
+}
+
+.tags {
+  text-align: center;
+  background-color: #ebf0ee;
+  height: 32px;
+  border-radius: 4px;
+  color: #3a4a42;
+  font-style: normal;
+  font-size: 12px;
+  margin: 0 10px 0 10px;
+  line-height: 30px;
+  list-style-type: none;
+  padding: 0 12px 0 12px;
+}
+
+.project-btn {
+  width: 122px;
+  height: 48px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  background-color: #36b37e;
+  border-radius: 4px;
+  margin-top: 29px;
+  cursor: pointer;
+}
+
+.project-btn:hover {
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+.project-btn:active {
+  background: #008552;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-me-titel {
+  color: #172b4d;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+}
+
+.about-me-description {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  margin: 0;
+  color: #172b4d;
+}
+
+.about-me-descrip-container {
+  width: 327px;
+  height: 164px;
+  margin: 30px;
+}
+
+.get-my-resume-btn {
+  width: 159px;
+  height: 48px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  background-color: #36b37e;
+  border-radius: 4px;
+  margin-top: 29px;
+  cursor: pointer;
+}
+
+.get-my-resume-btn:hover {
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+.get-my-resume-btn:active {
+  background: #008552;
+}
+
+.main-about-me-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../images/about-me.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-bottom: 30px;
+}
+
+.skills-cards-container {
+  display: grid;
+  grid-template: repeat(3, 352px) / 327px;
+  gap: 24px;
+  box-sizing: border-box;
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #ebf0ee;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+}
+
+.skills-icon-container {
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  box-shadow: 0 16px 24px rgba(37, 47, 137, 0.08);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-card-titel {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #344563;
+}
+
+.skills-tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+}
+
+.skills-tag {
+  text-align: center;
+  background-color: #fff;
+  height: 32px;
+  border-radius: 4px;
+  padding: 0 12px 0 12px;
+  color: #36b37e;
+  font-style: normal;
+  font-size: 12px;
+  margin: 0 10px 0 10px;
+  line-height: 30px;
+  list-style-type: none;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-page-titel {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  text-align: center;
+}
+
+.full-name {
+  width: 327px;
+  height: 48px;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #d0d9d4;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+
+.email {
+  width: 327px;
+  height: 48px;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #d0d9d4;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+
+#comment {
+  width: 327px;
+  height: 114px;
+  border-radius: 4px;
+  background: #fff;
+  border: 1px solid #60c095;
+  box-sizing: border-box;
+  margin-bottom: 24px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.submit-form-btn {
+  width: 129px;
+  height: 48px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  background-color: #36b37e;
+  border-radius: 4px;
+  margin-top: 29px;
+  cursor: pointer;
+}
+
+.submit-form-btn:hover {
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+.submit-form-btn:active {
+  background: #008552;
+}
+
+.social-email-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 58px;
+}
+
+.mail-to {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  text-decoration: none;
+  color: #42526e;
 }
