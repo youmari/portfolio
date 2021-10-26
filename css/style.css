@@ -381,6 +381,7 @@ header {
   line-height: 24px;
   margin-bottom: 24px;
 }
+
 #comment {
   width: 327px;
   height: 114px;
@@ -395,6 +396,7 @@ header {
   line-height: 24px;
   padding: 12px;
 }
+
 .submit-form-btn {
   width: 129px;
   height: 48px;
@@ -417,4 +419,19 @@ header {
   background: #008552;
 }
 
+.social-email-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 35px;
+}
 
+.mail-to {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  text-decoration: none;
+  color: #42526e;
+}
