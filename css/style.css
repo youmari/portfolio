@@ -364,6 +364,7 @@ header {
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
+  padding: 16px;
 }
 
 .email {
@@ -378,6 +379,7 @@ header {
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
+  padding: 16px;
 }
 
 #comment {
