@@ -364,7 +364,7 @@ header {
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
-  margin-bottom: 24px;
+  padding: 16px;
 }
 
 .email {
@@ -379,7 +379,7 @@ header {
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
-  margin-bottom: 24px;
+  padding: 16px;
 }
 
 #comment {
@@ -389,12 +389,12 @@ header {
   background: #fff;
   border: 1px solid #60c095;
   box-sizing: border-box;
-  margin-bottom: 24px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
+  padding: 12px;
 }
 
 .submit-form-btn {
@@ -408,7 +408,6 @@ header {
   color: #fff;
   background-color: #36b37e;
   border-radius: 4px;
-  margin-top: 29px;
   cursor: pointer;
 }
 
@@ -424,7 +423,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 58px;
+  margin-top: 35px;
 }
 
 .mail-to {

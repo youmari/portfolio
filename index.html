@@ -183,16 +183,16 @@
         </li>   
       </ul>
     </section>
-    <section class="contact-page">
+      <section class="contact-page">
       <h2 class="contact-page-titel">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
-      <form action="#" class="contact-form">
+      <form action="https://formspree.io/f/xpzkeyro" class="contact-form" method="post">
         <label for="fullname"></label>
-        <input name="fullname" class="full-name" id="fullname" type="text" value="full-nanm" placeholder="Full name"><br>
+        <input maxlength="30" name="fullname" class="full-name" id="fullname" type="text" placeholder="Full name" required><br>
         <label for="email"></label>
-        <input type="email" name="email" class="email" id="email" placeholder="Email"><br>
+        <input type="email" name="email" class="email" id="email" placeholder="Email" required><br>
         <label for="comment"></label>
-        <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Enter text here"></textarea><br>
-        <input type="button" class="submit-form-btn" value="Get in touch">
+        <textarea maxlength="500" name="comment" id="comment" cols="30" rows="10" placeholder="Enter text here" required></textarea><br>
+        <input type="submit" class="submit-form-btn" value="Get in touch">
       </form>
       <div class="social-email-container">
         <ul class="social-media-icons">
@@ -205,10 +205,9 @@
         <li>
           <a href="https://www.github.com/youmari" class="github-link"><img src="./images/github.svg" alt="github icon"></a>
         </li>
-      </ul>
-      <p><a class="mail-to" href="mailto:omarifilaliy@gmail.com">omarifilaliy@gmail.com</a></p>
+        </ul>
+        <p><a class="mail-to" href="mailto:omarifilaliy@gmail.com">omarifilaliy@gmail.com</a></p>
       </div>
-      
     </section>
     </main>
 </body>
