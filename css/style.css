@@ -44,7 +44,8 @@ header {
   height: 648px;
 }
 
-.main-titel ,.secondary-titel {
+.main-titel
+,.secondary-titel {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -283,21 +284,22 @@ header {
   padding: 0;
 }
 
-@media (min-width:850px) {
+@media (min-width: 850px) {
+
   .skills-cards-container {
-  display: grid;
-  grid-template: repeat(2, 352px) / 327px 327px;
-  gap: 24px;
-  box-sizing: border-box;
-  list-style-type: none;
-  padding: 0;
-}
-.projects-container {
-  display: grid;
-  grid-template: repeat(3, 474px)/ 327px 327px;
-  gap: 24px;
-}
-  
+    display: grid;
+    grid-template: repeat(2, 352px) / 327px 327px;
+    gap: 24px;
+    box-sizing: border-box;
+    list-style-type: none;
+    padding: 0;
+    }
+
+  .projects-container {
+    display: grid;
+    grid-template: repeat(3, 474px)/ 327px 327px;
+    gap: 24px;
+  }
 }
 
 .skills-cards {
@@ -451,8 +453,7 @@ header {
   color: #42526e;
 }
 
-@media (min-width:1030px) {
-
+@media (min-width: 1030px) {
   body {
     margin: 0;
   }
@@ -471,11 +472,13 @@ header {
     background-color: transparent;
   }
 
-  .logo-container ,.menu-icon {
+  .logo-container
+  ,.menu-icon {
     display: none;
   }
 
-  .nav-menu, .nav-links-container {
+  .nav-menu
+  ,.nav-links-container {
     height: 72px;
     width: 100%;
     display: flex;
@@ -484,7 +487,7 @@ header {
     background-color: transparent;
   }
 
-  .nav-link  {
+  .nav-link {
     text-decoration: none;
     list-style-type: none;
     font-family: 'Inter', sans-serif;
@@ -495,14 +498,14 @@ header {
     color: #42526e;
     padding: 10px;
     margin: 10px;
-
   }
 
   ul li {
     list-style-type: none;
   }
 
-  .main-titel ,.secondary-titel {
+  .main-titel
+  ,.secondary-titel {
     font-size: 48px;
     font-weight: 800;
   }
@@ -549,7 +552,7 @@ header {
 
   .title-and-form-container {
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: center;
     margin-top: 164px;
     margin-bottom: 225px;
@@ -561,7 +564,9 @@ header {
     margin-right: 24px;
   }
 
-  .full-name ,.email ,#comment {
+  .full-name
+  ,.email
+  ,#comment {
     width: 684px;
   }
 
@@ -581,13 +586,12 @@ header {
   }
 
   .social-email-container {
-    border-top:1px solid #dfe1e6;
+    border-top: 1px solid #dfe1e6;
   }
 
   .contact-page {
     background-image: url(../images/contact-desktop.svg);
     background-repeat: no-repeat;
     background-position: right;
-  }
-  
+  } 
 }
