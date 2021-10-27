@@ -184,6 +184,11 @@ header {
   line-height: 30px;
   list-style-type: none;
   padding: 0 12px 0 12px;
+  font-family: 'Inter', sans-serif;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
 }
 
 .project-btn {
@@ -199,6 +204,7 @@ header {
   border-radius: 4px;
   margin-top: 29px;
   cursor: pointer;
+  border: none;
 }
 
 .project-btn:hover {
@@ -256,6 +262,7 @@ header {
   border-radius: 4px;
   margin-top: 29px;
   cursor: pointer;
+  border: none;
 }
 
 .get-my-resume-btn:hover {
@@ -346,11 +353,14 @@ header {
   border-radius: 4px;
   padding: 0 12px 0 12px;
   color: #36b37e;
-  font-style: normal;
-  font-size: 12px;
   margin: 0 10px 0 10px;
   line-height: 30px;
   list-style-type: none;
+  font-family: 'Inter', sans-serif;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
 }
 
 .contact-form {
@@ -426,6 +436,7 @@ header {
   background-color: #36b37e;
   border-radius: 4px;
   cursor: pointer;
+  border: none;
 }
 
 .submit-form-btn:hover {
