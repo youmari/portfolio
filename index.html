@@ -11,16 +11,21 @@
     <title>Welcome to my Portfolio</title>
 </head>
 <body>
-  <header class="header">
-    <div class="logo-container">
-      <a class="text-logo" href="#">Yassine</a>
-    </div>
-    <nav class="nav-menu">
-      <img src="./images/Union.png" alt="menu icon">
-    </nav>
-  </header>
   <main class="main-page">
-    <section class="headline">
+    <section class="headline" id="headline">
+      <header class="header">
+        <div class="logo-container">
+          <a class="text-logo" href="#">Yassine</a>
+        </div>
+        <nav class="nav-menu">
+          <img class="menu-icon" src="./images/Union.png" alt="menu icon">
+          <ul class="nav-links-container">
+            <li><a class="nav-link" href="#headline">Portfolio</a></li>
+            <li><a class="nav-link" href="#about">About</a></li>
+            <li><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
       <div class="titel-container">
         <h1 class="main-titel">Hey there. I’m Yassine </h1>
         <h2 class="secondary-titel">
@@ -135,7 +140,7 @@
         </div>
       </div>
     </section>
-    <section class="about-me">
+    <section class="about-me" id="about">
       <div class="main-about-me-container">
         <h4 class="about-me-titel">About me</h4>
         <div class="about-me-descrip-container">
@@ -183,7 +188,7 @@
         </li>   
       </ul>
     </section>
-      <section class="contact-page">
+      <section class="contact-page" id="contact">
       <div class="title-and-form-container">
       <h2 class="contact-page-titel">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
       <form action="https://formspree.io/f/xpzkeyro" class="contact-form" method="post">

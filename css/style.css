@@ -7,6 +7,10 @@ header {
   margin: 0;
 }
 
+.nav-links-container {
+  display: none;
+}
+
 .logo-container {
   box-sizing: border-box;
   height: 48px;
@@ -40,7 +44,7 @@ header {
   height: 648px;
 }
 
-.main-titel {
+.main-titel ,.secondary-titel {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -51,12 +55,6 @@ header {
 }
 
 .secondary-titel {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 52px;
-  text-align: center;
   color: #36b37e;
 }
 
@@ -455,9 +453,71 @@ header {
 
 @media (min-width:1030px) {
 
+  body {
+    margin: 0;
+  }
+
+  .headline {
+    background-image: url(../images/Header-llustration-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1472px;
+    background-position: top;
+  }
+
   header {
     display: flex;
     justify-content: center;
+    background-color: transparent;
+  }
+
+  .logo-container ,.menu-icon {
+    display: none;
+  }
+
+  .nav-menu, .nav-links-container {
+    height: 72px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    background-color: transparent;
+  }
+
+  .nav-link  {
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 32px;
+    color: #42526e;
+    padding: 10px;
+    margin: 10px;
+
+  }
+
+  ul li {
+    list-style-type: none;
+  }
+
+  .main-titel ,.secondary-titel {
+    font-size: 48px;
+    font-weight: 800;
+  }
+
+  .main-titel {
+    margin-top: 160px;
+  }
+
+  .des-text-container {
+    width: 920px;
+    height: 96px;
+  }
+
+  .go-to-main-btn {
+    margin-top: 84px;
   }
 
   .projects-container {
@@ -488,7 +548,7 @@ header {
     margin-right: 24px;
   }
 
-  .full-name , .email , #comment {
+  .full-name ,.email ,#comment {
     width: 684px;
   }
 
