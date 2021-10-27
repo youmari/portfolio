@@ -583,5 +583,11 @@ header {
   .social-email-container {
     border-top:1px solid #dfe1e6;
   }
+
+  .contact-page {
+    background-image: url(../images/contact-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+  }
   
 }
