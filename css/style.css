@@ -213,6 +213,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 192px;
 }
 
 .about-me-titel {
