@@ -285,6 +285,23 @@ header {
   padding: 0;
 }
 
+@media (min-width:850px) {
+  .skills-cards-container {
+  display: grid;
+  grid-template: repeat(2, 352px) / 327px 327px;
+  gap: 24px;
+  box-sizing: border-box;
+  list-style-type: none;
+  padding: 0;
+}
+.projects-container {
+  display: grid;
+  grid-template: repeat(3, 474px)/ 327px 327px;
+  gap: 24px;
+}
+  
+}
+
 .skills-cards {
   display: flex;
   flex-direction: column;
@@ -434,4 +451,64 @@ header {
   line-height: 32px;
   text-decoration: none;
   color: #42526e;
+}
+
+@media (min-width:1030px) {
+
+  header {
+    display: flex;
+    justify-content: center;
+  }
+
+  .projects-container {
+    display: grid;
+    grid-template: repeat(2, 474px)/ repeat(3, 327px);
+    gap: 24px;
+  }
+    .skills-cards-container {
+    display: grid;
+    grid-template: 352px / repeat(3, 369px);
+    gap: 24px;
+    box-sizing: border-box;
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .title-and-form-container {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: 164px;
+    margin-bottom: 225px;
+  }
+
+  .contact-page-titel {
+    height: 256px;
+    width: 463px;
+    margin-right: 24px;
+  }
+
+  .full-name , .email , #comment {
+    width: 684px;
+  }
+
+  .submit-form-btn {
+    align-self: flex-start;
+  }
+
+  .mail-to {
+    display: none;
+    position: absolute;
+    top: 0;
+  }
+
+  .bottom-icons {
+    position: absolute;
+    margin-bottom: 26px;
+  }
+
+  .social-email-container {
+    border-top:1px solid #dfe1e6;
+  }
+  
 }
