@@ -45,7 +45,8 @@ header {
 }
 
 .main-titel
-,.secondary-titel {
+,
+.secondary-titel {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -285,7 +286,6 @@ header {
 }
 
 @media (min-width: 850px) {
-
   .skills-cards-container {
     display: grid;
     grid-template: repeat(2, 352px) / 327px 327px;
@@ -478,7 +478,8 @@ header {
   }
 
   .nav-menu
-  ,.nav-links-container {
+  ,
+  .nav-links-container {
     height: 72px;
     width: 100%;
     display: flex;
@@ -505,7 +506,8 @@ header {
   }
 
   .main-titel
-  ,.secondary-titel {
+  ,
+  .secondary-titel {
     font-size: 48px;
     font-weight: 800;
   }
@@ -565,8 +567,10 @@ header {
   }
 
   .full-name
-  ,.email
-  ,#comment {
+  ,
+  .email
+  ,
+  #comment {
     width: 684px;
   }
 
@@ -593,5 +597,6 @@ header {
     background-image: url(../images/contact-desktop.svg);
     background-repeat: no-repeat;
     background-position: right;
-  } 
+  }
+ 
 }
