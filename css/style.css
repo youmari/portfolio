@@ -525,7 +525,20 @@ header {
     grid-template: repeat(2, 474px)/ repeat(3, 327px);
     gap: 24px;
   }
-    .skills-cards-container {
+
+  .main-about-me-container {
+    background-image: url(../images/about-me-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 331px;
+    width: 100%;
+  }
+
+  .about-me-description {
+    width: 920px;
+  }
+
+  .skills-cards-container {
     display: grid;
     grid-template: 352px / repeat(3, 369px);
     gap: 24px;
