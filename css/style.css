@@ -44,8 +44,7 @@ header {
   height: 648px;
 }
 
-.main-titel
-,
+.main-titel,
 .secondary-titel {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -293,7 +292,7 @@ header {
     box-sizing: border-box;
     list-style-type: none;
     padding: 0;
-    }
+  }
 
   .projects-container {
     display: grid;
@@ -472,13 +471,12 @@ header {
     background-color: transparent;
   }
 
-  .logo-container
-  ,.menu-icon {
+  .logo-container,
+  .menu-icon {
     display: none;
   }
 
-  .nav-menu
-  ,
+  .nav-menu,
   .nav-links-container {
     height: 72px;
     width: 100%;
@@ -505,8 +503,7 @@ header {
     list-style-type: none;
   }
 
-  .main-titel
-  ,
+  .main-titel,
   .secondary-titel {
     font-size: 48px;
     font-weight: 800;
@@ -566,10 +563,8 @@ header {
     margin-right: 24px;
   }
 
-  .full-name
-  ,
-  .email
-  ,
+  .full-name,
+  .email,
   #comment {
     width: 684px;
   }
@@ -598,5 +593,5 @@ header {
     background-repeat: no-repeat;
     background-position: right;
   }
- 
+
 }
