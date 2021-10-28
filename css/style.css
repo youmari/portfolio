@@ -7,6 +7,10 @@ header {
   margin: 0;
 }
 
+.nav-links-container {
+  display: none;
+}
+
 .logo-container {
   box-sizing: border-box;
   height: 48px;
@@ -40,7 +44,8 @@ header {
   height: 648px;
 }
 
-.main-titel {
+.main-titel,
+.secondary-titel {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -51,12 +56,6 @@ header {
 }
 
 .secondary-titel {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 52px;
-  text-align: center;
   color: #36b37e;
 }
 
@@ -185,6 +184,8 @@ header {
   line-height: 30px;
   list-style-type: none;
   padding: 0 12px 0 12px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
 }
 
 .project-btn {
@@ -200,6 +201,7 @@ header {
   border-radius: 4px;
   margin-top: 29px;
   cursor: pointer;
+  border: none;
 }
 
 .project-btn:hover {
@@ -214,6 +216,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 192px;
 }
 
 .about-me-titel {
@@ -256,6 +259,7 @@ header {
   border-radius: 4px;
   margin-top: 29px;
   cursor: pointer;
+  border: none;
 }
 
 .get-my-resume-btn:hover {
@@ -283,6 +287,23 @@ header {
   box-sizing: border-box;
   list-style-type: none;
   padding: 0;
+}
+
+@media (min-width: 850px) {
+  .skills-cards-container {
+    display: grid;
+    grid-template: repeat(2, 352px) / 327px 327px;
+    gap: 24px;
+    box-sizing: border-box;
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .projects-container {
+    display: grid;
+    grid-template: repeat(3, 474px)/ 327px 327px;
+    gap: 24px;
+  }
 }
 
 .skills-cards {
@@ -329,11 +350,13 @@ header {
   border-radius: 4px;
   padding: 0 12px 0 12px;
   color: #36b37e;
-  font-style: normal;
-  font-size: 12px;
   margin: 0 10px 0 10px;
   line-height: 30px;
   list-style-type: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
 }
 
 .contact-form {
@@ -409,6 +432,7 @@ header {
   background-color: #36b37e;
   border-radius: 4px;
   cursor: pointer;
+  border: none;
 }
 
 .submit-form-btn:hover {
@@ -434,4 +458,147 @@ header {
   line-height: 32px;
   text-decoration: none;
   color: #42526e;
+}
+
+@media (min-width: 1030px) {
+  body {
+    margin: 0;
+  }
+
+  .headline {
+    background-image: url(../images/Header-llustration-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1472px;
+    background-position: top;
+  }
+
+  header {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+  }
+
+  .logo-container,
+  .menu-icon {
+    display: none;
+  }
+
+  .nav-menu,
+  .nav-links-container {
+    height: 72px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    background-color: transparent;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 32px;
+    color: #42526e;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  ul li {
+    list-style-type: none;
+  }
+
+  .main-titel,
+  .secondary-titel {
+    font-size: 48px;
+    font-weight: 800;
+  }
+
+  .main-titel {
+    margin-top: 160px;
+  }
+
+  .des-text-container {
+    width: 920px;
+    height: 96px;
+  }
+
+  .go-to-main-btn {
+    margin-top: 84px;
+  }
+
+  .projects-container {
+    display: grid;
+    grid-template: repeat(2, 474px)/ repeat(3, 327px);
+    gap: 24px;
+  }
+
+  .main-about-me-container {
+    background-image: url(../images/about-me-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 331px;
+    width: 100%;
+  }
+
+  .about-me-description {
+    width: 920px;
+  }
+
+  .skills-cards-container {
+    display: grid;
+    grid-template: 352px / repeat(3, 369px);
+    gap: 24px;
+    box-sizing: border-box;
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .title-and-form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 164px;
+    margin-bottom: 225px;
+  }
+
+  .contact-page-titel {
+    height: 256px;
+    width: 463px;
+    margin-right: 24px;
+  }
+
+  .full-name,
+  .email,
+  #comment {
+    width: 684px;
+  }
+
+  .submit-form-btn {
+    align-self: flex-start;
+  }
+
+  .mail-to {
+    display: none;
+    position: absolute;
+    top: 0;
+  }
+
+  .bottom-icons {
+    position: absolute;
+    margin-bottom: 26px;
+  }
+
+  .social-email-container {
+    border-top: 1px solid #dfe1e6;
+  }
+
+  .contact-page {
+    background-image: url(../images/contact-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+  }
 }

@@ -11,16 +11,21 @@
     <title>Welcome to my Portfolio</title>
 </head>
 <body>
-  <header class="header">
-    <div class="logo-container">
-      <a class="text-logo" href="#">Yassine</a>
-    </div>
-    <nav class="nav-menu">
-      <img src="./images/Union.png" alt="menu icon">
-    </nav>
-  </header>
   <main class="main-page">
-    <section class="headline">
+    <section class="headline" id="headline">
+      <header class="header">
+        <div class="logo-container">
+          <a class="text-logo" href="#">Yassine</a>
+        </div>
+        <nav class="nav-menu">
+          <img class="menu-icon" src="./images/Union.png" alt="menu icon">
+          <ul class="nav-links-container">
+            <li><a class="nav-link" href="#headline">Portfolio</a></li>
+            <li><a class="nav-link" href="#about">About</a></li>
+            <li><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
       <div class="titel-container">
         <h1 class="main-titel">Hey there. I’m Yassine </h1>
         <h2 class="secondary-titel">
@@ -135,12 +140,10 @@
         </div>
       </div>
     </section>
-    <section class="about-me">
+    <section class="about-me" id="about">
       <div class="main-about-me-container">
         <h4 class="about-me-titel">About me</h4>
-        <div class="about-me-descrip-container">
           <p class="about-me-description"> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-        </div>
         <form action="#" method="get">
           <button type="submit" class="get-my-resume-btn">Get my resume</button>
         </form>
@@ -183,7 +186,8 @@
         </li>   
       </ul>
     </section>
-      <section class="contact-page">
+      <section class="contact-page" id="contact">
+      <div class="title-and-form-container">
       <h2 class="contact-page-titel">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
       <form action="https://formspree.io/f/xpzkeyro" class="contact-form" method="post">
         <label for="fullname"></label>
@@ -194,8 +198,9 @@
         <textarea maxlength="500" name="comment" id="comment" cols="30" rows="10" placeholder="Enter text here" required></textarea><br>
         <input type="submit" class="submit-form-btn" value="Get in touch">
       </form>
-      <div class="social-email-container">
-        <ul class="social-media-icons">
+      </div>
+      <footer class="social-email-container">
+        <ul class="social-media-icons bottom-icons">
         <li>
           <a href="https://www.twitter.com/yf_omari" class="twitter-link"><img src="./images/twitter.svg" alt="twitter icon"></a>
         </li>
@@ -207,7 +212,7 @@
         </li>
         </ul>
         <p><a class="mail-to" href="mailto:omarifilaliy@gmail.com">omarifilaliy@gmail.com</a></p>
-      </div>
+      </footer>
     </section>
     </main>
 </body>
