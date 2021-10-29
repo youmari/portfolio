@@ -135,6 +135,11 @@ header {
   flex-direction: column;
   align-items: center;
   background-color: #fff;
+  transition: transform 0.5s;
+}
+
+.projects-cards:hover {
+  transform: scale(1.1);
 }
 
 .project-img {
@@ -314,6 +319,11 @@ header {
   background: #ebf0ee;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
+  transition: transform 0.5s;
+}
+
+.skills-cards:hover {
+  transform: scale(1.1);
 }
 
 .skills-icon-container {
@@ -538,11 +548,16 @@ header {
   }
 
   .main-about-me-container {
-    background-image: url(../images/about-me-desktop.png),
-    url(../images/illustration-about-me-2-desktop.svg);
+    background-image:
+      url(../images/about-me-desktop.png),
+      url(../images/illustration-about-me-2-desktop.svg);
     background-repeat: no-repeat;
-    background-size: cover, 15%;
-    background-position: right,left 100%;
+    background-size:
+      cover,
+      15%;
+    background-position:
+      right,
+      left 100%;
     height: 331px;
     width: 100%;
   }
@@ -600,12 +615,14 @@ header {
   }
 
   .contact-page {
-    background-image: url(../images/contact-desktop.svg),
-    url(../images/illustration-1-contact-form-desktop.svg),
-    url(../images/illustration-2-contact-form-desktop.svg);
+    background-image:
+      url(../images/contact-desktop.svg),
+      url(../images/illustration-1-contact-form-desktop.svg),
+      url(../images/illustration-2-contact-form-desktop.svg);
     background-repeat: no-repeat;
-    background-position: right,
-    left,
-    30% 80%;
+    background-position:
+      right,
+      left,
+      30% 80%;
   }
 }
