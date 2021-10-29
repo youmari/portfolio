@@ -134,6 +134,12 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #fff;
+  transition: transform 0.5s;
+}
+
+.projects-cards:hover {
+  transform: scale(1.1);
 }
 
 .project-img {
