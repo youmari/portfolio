@@ -4,6 +4,7 @@ header {
   height: 48px;
   width: 100%;
   margin: 0;
+  background-color: #fff;
 }
 
 .nav-links-container {
@@ -40,7 +41,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 648px;
+  height: fit-content;
 }
 
 .main-titel,
@@ -292,6 +293,13 @@ header {
   box-sizing: border-box;
   list-style-type: none;
   padding: 0;
+}
+
+.contact-page {
+  background-image: url(../images/Frame-b.png);
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-position-x: right;
 }
 
 @media (min-width: 850px) {
