@@ -7,9 +7,49 @@ header {
   background-color: #fff;
 }
 
-.nav-links-container {
-  display: none;
+@media (max-width: 1029px) {
+  .nav-links-container {
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0;
+    width: 100%;
+    height: 750px;
+    box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+    mix-blend-mode: normal;
+    background-color: #fff;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .nav-link {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #3a4a42;
+    text-decoration: none;
+    padding-bottom: 40px;
+  }
+
+  ul li {
+    list-style-type: none;
+    text-decoration: none;
+    padding-bottom: 40px;
+
+  }
+
+  .exit-icon {
+    align-self: flex-end;
+    margin-right: 80px;
+    margin-top: 40px;
+  }
+  
 }
+
 
 .logo-container {
   box-sizing: border-box;
