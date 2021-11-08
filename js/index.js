@@ -14,5 +14,5 @@ close.addEventListener('click', () => {
 links.forEach((link) => {
   link.addEventListener('click', () => {
     menu.style.display = 'none';
-    });
+  });
 });
