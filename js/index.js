@@ -1,18 +1,18 @@
 const hambIcon = document.querySelector('.menu-icon');
 const menu = document.querySelector('.nav-links-container');
 const close = document.querySelector('.exit-icon');
-const links = document.querySelectorAll(".nav-link");
+const links = document.querySelectorAll('.nav-link');
 
-hambIcon.addEventListener('click',e => {
-   menu.style.display = 'flex';
+hambIcon.addEventListener('click', () => {
+  menu.style.display = 'flex';
 });
 
-close.addEventListener('click',e =>{
-    menu.style.display = 'none';
+close.addEventListener('click', () => {
+  menu.style.display = 'none';
  });
 
 links.forEach(link => {
-    link.addEventListener("click", e => {
-        menu.style.display = "none";
-    })
-})
+  link.addEventListener("click", () => {
+  menu.style.display = "none";
+    });
+});
