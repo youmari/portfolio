@@ -14,7 +14,8 @@ close.addEventListener('click', () => {
 
 links.forEach((link) => {
   link.addEventListener('click', () => {
-    if (mobileScreen.matches)
+    if (mobileScreen.matches) {
       menu.style.display = 'none';
+    }
   });
 });
