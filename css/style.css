@@ -89,7 +89,6 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: fit-content;
   position: relative;
   top: 40px;
 }
@@ -545,11 +544,12 @@ header {
   header {
     display: flex;
     justify-content: center;
-    background-color: transparent;
+    background-color: #fff;
   }
 
   .logo-container,
-  .menu-icon {
+  .menu-icon,
+  .exit-icon {
     display: none;
   }
 

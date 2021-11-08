@@ -9,10 +9,10 @@ hambIcon.addEventListener('click', () => {
 
 close.addEventListener('click', () => {
   menu.style.display = 'none';
- });
+});
 
-links.forEach(link => {
-  link.addEventListener("click", () => {
+links.forEach( (link) => {
+  link.addEventListener('click', () => {
   menu.style.display = "none";
-    });
+  });
 });
