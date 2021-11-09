@@ -53,7 +53,40 @@ const createCards = () => {
 
 }
 
+
+const popUpWindow = () => {
+  const workSection = document.querySelector('.my-recent-works');
+  const WindowContainer = document.createElement('div');
+  const overlay = document.createElement('div');
+  const windowImg = document.createElement('img');
+  const windowText = document.createElement('p');
+  const windowTitle = document.createElement('h3');
+  const winTagscontainer = document.createElement('ul');
+  const wintags = document.createElement('li');
+  const winRepoBtn = document.createElement('button');
+  const winLiveBtn = document.createElement('button');
+  
+  workSection.append(WindowContainer, overlay);
+  WindowContainer.classList.add('window-container');
+  overlay.classList.add('overlay');
+  WindowContainer.append(windowImg, windowTitle, winTagscontainer, windowText, winLiveBtn, winRepoBtn);
+  winTagscontainer.append(wintags);
+  windowImg.classList.add('win-img');
+  windowTitle.classList.add('win-title');
+  winTagscontainer.classList.add('win-tags-container');
+  wintags.classList.add('win-tags');
+  windowText.classList.add('win-description');
+  winLiveBtn.classList.add('win-live-btn');
+  winRepoBtn.classList.add('win-repo-btn');
+  windowTitle.textContent = "Keeping track of hundreds of components"
+
+  
+  
+}
+
 createCards();
+popUpWindow();
+
 
 hambIcon.addEventListener('click', () => {
   menu.style.display = 'flex';
