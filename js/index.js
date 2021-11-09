@@ -58,24 +58,31 @@ const popUpWindow = () => {
   const workSection = document.querySelector('.my-recent-works');
   const WindowContainer = document.createElement('div');
   const overlay = document.createElement('div');
+  const winExitImg = document.createElement('img');
   const windowImg = document.createElement('img');
   const windowText = document.createElement('p');
   const windowTitle = document.createElement('h3');
   const winTagscontainer = document.createElement('ul');
   const wintags = document.createElement('li');
+  const winBtnContainer = document.createElement('div');
   const winRepoBtn = document.createElement('button');
   const winLiveBtn = document.createElement('button');
   
   workSection.append(WindowContainer, overlay);
   WindowContainer.classList.add('window-container');
   overlay.classList.add('overlay');
-  WindowContainer.append(windowImg, windowTitle, winTagscontainer, windowText, winLiveBtn, winRepoBtn);
+  WindowContainer.append(winExitImg, windowImg, windowTitle, winTagscontainer, windowText, winBtnContainer);
   winTagscontainer.append(wintags);
+  winBtnContainer.append(winLiveBtn, winRepoBtn);
+  winExitImg.src = '../images/exit-white-icon.png';
+
+  winExitImg.classList.add('win-exit');
   windowImg.classList.add('win-img');
   windowTitle.classList.add('win-title');
   winTagscontainer.classList.add('win-tags-container');
   wintags.classList.add('win-tags');
   windowText.classList.add('win-description');
+  winBtnContainer.classList.add('win-btn-container');
   winLiveBtn.classList.add('win-live-btn');
   winRepoBtn.classList.add('win-repo-btn');
   windowTitle.textContent = "Keeping track of hundreds of components"

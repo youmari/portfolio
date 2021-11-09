@@ -21,14 +21,22 @@
   opacity: 1;
 }
 
+.win-exit {
+  position: relative;
+  left: 80%;
+  top: 52px;
+  cursor: pointer;
+}
+
 .win-img {
   min-height: 220px;
   height: fit-content;
   min-width: 311px;
   width: 50%;
   margin: 16px;
-  background-color: red; 
+  background-color:#dfe1e6;
   align-self: center;
+  border-radius: 8px;
 }
 
 .win-title {
@@ -43,12 +51,60 @@
 
 .win-tags-container {
   display: flex;
-  justify-content: center;
   width: 305px;
   height: 32px;
   margin: 0 11px 0 11px;
   padding: 0;
-  background-color: red;
+}
+
+.win-tags {
+  text-align: center;
+  background-color: #ebf0ee;
+  height: 32px;
+  border-radius: 4px;
+  color: #3a4a42;
+  font-style: normal;
+  font-size: 12px;
+  margin: 0 10px 0 10px;
+  line-height: 30px;
+  list-style-type: none;
+  padding: 0 12px 0 12px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
+
+.win-description {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  min-width: 311px;
+  margin: 12px;
+}
+
+.win-btn-container {
+  display: flex;
+  justify-content: center;
+  min-width: 311px;
+  height: 56px;
+  margin: 16px;
+}
+
+.win-live-btn,
+.win-repo-btn {
+  height: 48px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  background-color: #36b37e;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
 }
 
 
