@@ -5,14 +5,14 @@ const links = document.querySelectorAll('.nav-link');
 const mobileScreen = window.matchMedia('(max-width: 1029px)');
 const projectsData = [project1 = {
   name : 'Covid19 web app',
-  img: 'img',
+  img: '../images/covid-img.jpeg',
   description: 'a web app that gives you information about the covid 19 around the world',
   liveLink : 'https://youmari.github.io/Covid-19/',
   projectRepo : 'https://github.com/youmari/Covid-19',
   technologies : ['html', 'css','javascript']
 }, project2 = {
     name : 'Face Detection web app',
-  img: 'img',
+  img: '../images/face-img.jpeg',
   description: 'web app that will recognize any face in the given image',
   liveLink : 'https://youmari.github.io/Face-Detection/',
   projectRepo : 'https://github.com/youmari/Face-Detection',
@@ -20,7 +20,7 @@ const projectsData = [project1 = {
 }]
 
 const createCards = () => {
-  for (let i = 0; i< projectsData.length; i++){
+  for (let i = 0; i < projectsData.length; i++){
 
     const projectsContainer = document.querySelector('.projects-container');
     const projectCard = document.createElement('div');
@@ -28,8 +28,13 @@ const createCards = () => {
     const projectImg = document.createElement('img');
     const projectTitle = document.createElement('h4');
     const tagsContainer = document.createElement('ul');
-    const tags = document.createElement('li');
     const projectBtn = document.createElement('button');
+    for (let j = 0; j < projectsData[i].technologies.length; j++) {
+        const tags = document.createElement('li');
+        tagsContainer.append(tags);
+        tags.classList.add('tags');
+        tags.textContent = projectsData[i].technologies[j];
+      }
     
     projectsContainer.append(projectCard);
     projectCard.classList.add('projects-cards');
@@ -40,15 +45,15 @@ const createCards = () => {
     projectBtn.classList.add('project-btn');
     projectTitleContainer.append(projectTitle);
     projectTitle.classList.add('project-titel');
-    tagsContainer.append(tags);
-    tags.classList.add('tags');
-
+    
     projectTitle.textContent = projectsData[i].name;
+    projectImg.src = projectsData[i].img;
+    projectBtn.textContent = 'See project';
   }
+
 }
+
 createCards();
-
-
 
 hambIcon.addEventListener('click', () => {
   menu.style.display = 'flex';
