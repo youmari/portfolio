@@ -1,6 +1,6 @@
 const hambIcon = document.querySelector('.menu-icon');
 const menu = document.querySelector('.nav-links-container');
-const close = document.querySelector('.exit-icon');
+ close = document.querySelector('.exit-icon');
 const links = document.querySelectorAll('.nav-link');
 const mobileScreen = window.matchMedia('(max-width: 1029px)');
 const projectsData = [{
