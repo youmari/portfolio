@@ -78,7 +78,7 @@ projectsData.forEach((element, i) => {
   overlay.classList.add('overlay');
   WindowContainer.append(exitBtnContainer, windowImg, windowTitle,
     winTagscontainer, windowText, winBtnContainer);
-  exitBtnContainer.append(winExitImg)
+  exitBtnContainer.append(winExitImg);
   winBtnContainer.append(winLiveForm, winRepoForm);
   winLiveForm.append(winLiveBtn);
   winRepoForm.append(winRepoBtn);
@@ -113,7 +113,6 @@ const popUpw = document.querySelectorAll('.window-container');
 const winExit = document.querySelectorAll('.win-exit');
 const overLay = document.querySelector('.overlay');
 
-
 seeProjectBtn.forEach((btn, index) => {
   btn.addEventListener('click', () => {
     popUpw[index].classList.toggle('active');
@@ -126,13 +125,13 @@ winExit.forEach((exitBtn, index) => {
   });
 });
 
-seeProjectBtn.forEach((btn, index) => {
+seeProjectBtn.forEach((btn) => {
   btn.addEventListener('click', () => {
     overLay.classList.toggle('active');
   });
 });
 
-winExit.forEach((exitBtn, index) => {
+winExit.forEach((exitBtn) => {
   exitBtn.addEventListener('click', () => {
     overLay.classList.toggle('active');
   });
