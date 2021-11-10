@@ -172,7 +172,7 @@ header {
 
 .projects-container {
   display: grid;
-  grid-template: repeat(6, 474px)/ 327px;
+  grid-template: repeat(2, 474px)/ 327px;
   gap: 24px;
 }
 
@@ -338,7 +338,7 @@ header {
 
 .skills-cards-container {
   display: grid;
-  grid-template: repeat(3, 352px) / 327px;
+  grid-template: repeat(1, 352px) / 327px;
   gap: 24px;
   box-sizing: border-box;
   list-style-type: none;
