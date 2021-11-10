@@ -12,7 +12,7 @@ const projectsData = [{
   technologies: ['html', 'css', 'javascript'],
 }, {
   name: 'Face Detection web app',
-  img: '../images/face-img.jpeg',
+  img: '../images/face-img.png',
   description: 'web app that will recognize any face in the given image',
   liveLink: 'https://youmari.github.io/Face-Detection/',
   projectRepo: 'https://github.com/youmari/Face-Detection',
