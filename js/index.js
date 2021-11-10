@@ -64,6 +64,8 @@ projectsData.forEach((element, i) => {
   const winLiveIcon = document.createElement('img');
   const winLiveForm = document.createElement('form');
   const winRepoForm = document.createElement('form');
+  const exitBtnContainer = document.createElement('div');
+
   projectsData[i].technologies.forEach((tech, j) => {
     const wintags = document.createElement('li');
     winTagscontainer.append(wintags);
@@ -74,8 +76,9 @@ projectsData.forEach((element, i) => {
   workSection.append(WindowContainer, overlay);
   WindowContainer.classList.add('window-container');
   overlay.classList.add('overlay');
-  WindowContainer.append(winExitImg, windowImg, windowTitle,
+  WindowContainer.append(exitBtnContainer, windowImg, windowTitle,
     winTagscontainer, windowText, winBtnContainer);
+  exitBtnContainer.append(winExitImg)
   winBtnContainer.append(winLiveForm, winRepoForm);
   winLiveForm.append(winLiveBtn);
   winRepoForm.append(winRepoBtn);
@@ -86,10 +89,11 @@ projectsData.forEach((element, i) => {
   winRepoBtn.textContent = 'See source';
   winLiveIcon.src = '../images/see-live-icon.png';
   winRepoIcon.src = '../images/win-icon-github.png';
-  winExitImg.src = '../images/exit-white-icon.png';
+  winExitImg.src = '../images/gray-exit.png';
   winRepoBtn.append(winRepoIcon);
   winLiveBtn.append(winLiveIcon);
 
+  exitBtnContainer.classList.add('exit-container');
   winExitImg.classList.add('win-exit');
   windowImg.classList.add('win-img');
   windowTitle.classList.add('win-title');
@@ -107,6 +111,8 @@ projectsData.forEach((element, i) => {
 const seeProjectBtn = document.querySelectorAll('.project-btn');
 const popUpw = document.querySelectorAll('.window-container');
 const winExit = document.querySelectorAll('.win-exit');
+const overLay = document.querySelector('.overlay');
+
 
 seeProjectBtn.forEach((btn, index) => {
   btn.addEventListener('click', () => {
@@ -117,6 +123,18 @@ seeProjectBtn.forEach((btn, index) => {
 winExit.forEach((exitBtn, index) => {
   exitBtn.addEventListener('click', () => {
     popUpw[index].classList.toggle('active');
+  });
+});
+
+seeProjectBtn.forEach((btn, index) => {
+  btn.addEventListener('click', () => {
+    overLay.classList.toggle('active');
+  });
+});
+
+winExit.forEach((exitBtn, index) => {
+  exitBtn.addEventListener('click', () => {
+    overLay.classList.toggle('active');
   });
 });
 
