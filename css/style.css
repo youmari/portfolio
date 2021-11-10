@@ -685,3 +685,12 @@ header {
       30% 80%;
   }
 }
+
+.error-msg {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  color: red;
+  opacity: 0;
+}
