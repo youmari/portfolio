@@ -5,21 +5,21 @@ const links = document.querySelectorAll('.nav-link');
 const mobileScreen = window.matchMedia('(max-width: 1029px)');
 const projectsData = [
   {
-    name: "Covid19 web app",
-    img: "../images/covid-img.jpeg",
+    name: 'Covid19 web app',
+    img: '../images/covid-img.jpeg',
     description:
-      "a web app that gives you information about the covid 19 around the world",
-    liveLink: "https://youmari.github.io/Covid-19/",
-    projectRepo: "https://github.com/youmari/Covid-19",
-    technologies: ["html", "css", "javascript"],
+      'a web app that gives you information about the covid 19 around the world',
+    liveLink: 'https://youmari.github.io/Covid-19/',
+    projectRepo: 'https://github.com/youmari/Covid-19',
+    technologies: ['html', 'css', 'javascript'],
   },
   {
-    name: "Face Detection web app",
-    img: "../images/face-img.png",
-    description: "web app that will recognize any face in the given image",
-    liveLink: "https://youmari.github.io/Face-Detection/",
-    projectRepo: "https://github.com/youmari/Face-Detection",
-    technologies: ["html", "css", "javascript", "react"],
+    name: 'Face Detection web app',
+    img: '../images/face-img.png',
+    description: 'web app that will recognize any face in the given image',
+    liveLink: 'https://youmari.github.io/Face-Detection/',
+    projectRepo: 'https://github.com/youmari/Face-Detection',
+    technologies: ['html', 'css', 'javascript', 'react'],
   },
 ];
 
