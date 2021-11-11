@@ -1,39 +1,36 @@
+const addressEmail = document.getElementById('email');
 const fullName = document.getElementById('fullname');
-//const email = document.getElementById('email');
-const textMsg = document.getElementById("comment");
+const textMsg = document.getElementById('comment');
 const formInputData = {
-    name: fullName.value,
-    email: email.value,
-    text: textMsg.value
-}
+  name: fullName.value,
+  email: addressEmail.value,
+  text: textMsg.value,
+};
 
-fullName.addEventListener("input", () => {
+const saveDataLocally = () => {
+  localStorage.setItem('formData', JSON.stringify(formInputData));
+};
+
+fullName.addEventListener('input', () => {
   formInputData.name = fullName.value;
   saveDataLocally();
-
 });
 
-email.addEventListener("input", () => {
-  formInputData.email = email.value;
+addressEmail.addEventListener('input', () => {
+  formInputData.email = addressEmail.value;
   saveDataLocally();
-
 });
 
-textMsg.addEventListener("input", () => {
+textMsg.addEventListener('input', () => {
   formInputData.text = textMsg.value;
   saveDataLocally();
 });
 
-function saveDataLocally() {
-    localStorage.setItem('formData',JSON.stringify(formInputData));
-}
-
-function updateData() {
-    const storedData  = JSON.parse(localStorage.getItem('formData'));
-    fullName.value = storedData.name;
-    email.value = storedData.email;
-    textMsg.value = storedData.text;
-}
-
+const updateData = () => {
+  const storedData = JSON.parse(localStorage.getItem('formData'));
+  fullName.value = storedData.name;
+  addressEmail.value = storedData.email;
+  textMsg.value = storedData.text;
+};
 
 updateData();
