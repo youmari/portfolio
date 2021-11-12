@@ -8,21 +8,21 @@ const formInputData = {
 };
 
 const saveDataLocally = () => {
+  formInputData.name = fullName.value;
+  formInputData.email = addressEmail.value;
+  formInputData.text = textMsg.value;
   localStorage.setItem('formData', JSON.stringify(formInputData));
 };
 
 fullName.addEventListener('input', () => {
-  formInputData.name = fullName.value;
   saveDataLocally();
 });
 
 addressEmail.addEventListener('input', () => {
-  formInputData.email = addressEmail.value;
   saveDataLocally();
 });
 
 textMsg.addEventListener('input', () => {
-  formInputData.text = textMsg.value;
   saveDataLocally();
 });
 
