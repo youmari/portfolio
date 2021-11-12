@@ -1,5 +1,5 @@
 const email = document.getElementById('email');
-const errorMsg = document.querySelector('.error-msg');
+errorMsg = document.querySelector('.error-msg');
 const form = document.querySelector('.contact-form');
 
 form.addEventListener('submit', (e) => {
