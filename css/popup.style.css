@@ -15,8 +15,8 @@
 
 .overlay.active {
   transform: scale(1);
-  transition: 400ms ease-in-out;
   opacity: 1;
+  transition: 400ms ease-in-out;
 }
 
 .window-container {
@@ -42,8 +42,8 @@
 
 .window-container.active {
   opacity: 1;
-  transition: 400ms ease-in-out;
   transform: translate(-50%, -50%) scale(1);
+  transition: 400ms ease-in-out;
 }
 
 .win-exit {
