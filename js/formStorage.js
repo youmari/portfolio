@@ -1,10 +1,10 @@
-const addressEmail = document.getElementById('email');
 const fullName = document.getElementById('fullname');
+const addressEmail = document.getElementById('email');
 const textMsg = document.getElementById('comment');
 const formInputData = {
-  name: fullName.value,
-  email: addressEmail.value,
-  text: textMsg.value,
+  name: '',
+  email: '',
+  text: '',
 };
 
 const saveDataLocally = () => {
@@ -14,23 +14,21 @@ const saveDataLocally = () => {
   localStorage.setItem('formData', JSON.stringify(formInputData));
 };
 
-fullName.addEventListener('input', () => {
-  saveDataLocally();
-});
-
-addressEmail.addEventListener('input', () => {
-  saveDataLocally();
-});
-
-textMsg.addEventListener('input', () => {
-  saveDataLocally();
-});
-
 const updateData = () => {
   const storedData = JSON.parse(localStorage.getItem('formData'));
   fullName.value = storedData.name;
   addressEmail.value = storedData.email;
   textMsg.value = storedData.text;
 };
+
+const typeListen = (inputElement) => {
+  inputElement.addEventListener('input', () => {
+    saveDataLocally();
+  });
+};
+
+typeListen(fullName);
+typeListen(addressEmail);
+typeListen(textMsg);
 
 updateData();
