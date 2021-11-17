@@ -155,7 +155,7 @@ projectsData.forEach((element, i) => {
   winLiveBtn.textContent = 'See live';
   winRepoBtn.textContent = 'See source';
   winLiveIcon.src = './images/see-live-icon.png';
-  winRepoIcon.src = './images/win-icon-github.png';
+  winRepoIcon.src = './images/win-Icon-GitHub.png';
   winExitImg.src = './images/gray-exit.png';
   winRepoBtn.append(winRepoIcon);
   winLiveBtn.append(winLiveIcon);
