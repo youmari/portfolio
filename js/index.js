@@ -6,7 +6,7 @@ const mobileScreen = window.matchMedia('(max-width: 1029px)');
 const projectsData = [
   {
     name: 'Covid19 web app',
-    img: '../images/covid-img.jpeg',
+    img: './images/covid-img.jpeg',
     description:
       'a web app that gives you information about the covid 19 around the world',
     liveLink: 'https://youmari.github.io/Covid-19/',
@@ -15,11 +15,74 @@ const projectsData = [
   },
   {
     name: 'Face Detection web app',
-    img: '../images/face-img.png',
+    img: './images/face-img.png',
     description: 'web app that will recognize any face in the given image',
     liveLink: 'https://youmari.github.io/Face-Detection/',
     projectRepo: 'https://github.com/youmari/Face-Detection',
     technologies: ['html', 'css', 'javascript', 'react'],
+  },
+  {
+    name: 'Covid19 web app',
+    img: './images/covid-img.jpeg',
+    description:
+      'a web app that gives you information about the covid 19 around the world',
+    liveLink: 'https://youmari.github.io/Covid-19/',
+    projectRepo: 'https://github.com/youmari/Covid-19',
+    technologies: ['html', 'css', 'javascript'],
+  },
+  {
+    name: 'Covid19 web app',
+    img: './images/covid-img.jpeg',
+    description:
+      'a web app that gives you information about the covid 19 around the world',
+    liveLink: 'https://youmari.github.io/Covid-19/',
+    projectRepo: 'https://github.com/youmari/Covid-19',
+    technologies: ['html', 'css', 'javascript'],
+  },
+  {
+    name: 'Covid19 web app',
+    img: './images/covid-img.jpeg',
+    description:
+      'a web app that gives you information about the covid 19 around the world',
+    liveLink: 'https://youmari.github.io/Covid-19/',
+    projectRepo: 'https://github.com/youmari/Covid-19',
+    technologies: ['html', 'css', 'javascript'],
+  },
+  {
+    name: 'Covid19 web app',
+    img: './images/covid-img.jpeg',
+    description:
+      'a web app that gives you information about the covid 19 around the world',
+    liveLink: 'https://youmari.github.io/Covid-19/',
+    projectRepo: 'https://github.com/youmari/Covid-19',
+    technologies: ['html', 'css', 'javascript'],
+  },
+  {
+    name: 'Covid19 web app',
+    img: './images/covid-img.jpeg',
+    description:
+      'a web app that gives you information about the covid 19 around the world',
+    liveLink: 'https://youmari.github.io/Covid-19/',
+    projectRepo: 'https://github.com/youmari/Covid-19',
+    technologies: ['html', 'css', 'javascript'],
+  },
+  {
+    name: 'Covid19 web app',
+    img: './images/covid-img.jpeg',
+    description:
+      'a web app that gives you information about the covid 19 around the world',
+    liveLink: 'https://youmari.github.io/Covid-19/',
+    projectRepo: 'https://github.com/youmari/Covid-19',
+    technologies: ['html', 'css', 'javascript'],
+  },
+  {
+    name: 'Covid19 web app',
+    img: './images/covid-img.jpeg',
+    description:
+      'a web app that gives you information about the covid 19 around the world',
+    liveLink: 'https://youmari.github.io/Covid-19/',
+    projectRepo: 'https://github.com/youmari/Covid-19',
+    technologies: ['html', 'css', 'javascript'],
   },
 ];
 
@@ -91,9 +154,9 @@ projectsData.forEach((element, i) => {
 
   winLiveBtn.textContent = 'See live';
   winRepoBtn.textContent = 'See source';
-  winLiveIcon.src = '../images/see-live-icon.png';
-  winRepoIcon.src = '../images/win-icon-github.png';
-  winExitImg.src = '../images/gray-exit.png';
+  winLiveIcon.src = './images/see-live-icon.png';
+  winRepoIcon.src = './images/win-icon-github.png';
+  winExitImg.src = './images/gray-exit.png';
   winRepoBtn.append(winRepoIcon);
   winLiveBtn.append(winLiveIcon);
 
