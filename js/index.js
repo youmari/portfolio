@@ -22,68 +22,14 @@ const projectsData = [
     technologies: ['html', 'css', 'javascript', 'react'],
   },
   {
-    name: 'Covid19 web app',
-    img: './images/covid-img.jpeg',
+    name: 'Todo list App',
+    img: './images/todo-list.png',
     description:
-      'a web app that gives you information about the covid 19 around the world',
-    liveLink: 'https://youmari.github.io/Covid-19/',
-    projectRepo: 'https://github.com/youmari/Covid-19',
-    technologies: ['html', 'css', 'javascript'],
-  },
-  {
-    name: 'Covid19 web app',
-    img: './images/covid-img.jpeg',
-    description:
-      'a web app that gives you information about the covid 19 around the world',
-    liveLink: 'https://youmari.github.io/Covid-19/',
-    projectRepo: 'https://github.com/youmari/Covid-19',
-    technologies: ['html', 'css', 'javascript'],
-  },
-  {
-    name: 'Covid19 web app',
-    img: './images/covid-img.jpeg',
-    description:
-      'a web app that gives you information about the covid 19 around the world',
-    liveLink: 'https://youmari.github.io/Covid-19/',
-    projectRepo: 'https://github.com/youmari/Covid-19',
-    technologies: ['html', 'css', 'javascript'],
-  },
-  {
-    name: 'Covid19 web app',
-    img: './images/covid-img.jpeg',
-    description:
-      'a web app that gives you information about the covid 19 around the world',
-    liveLink: 'https://youmari.github.io/Covid-19/',
-    projectRepo: 'https://github.com/youmari/Covid-19',
-    technologies: ['html', 'css', 'javascript'],
-  },
-  {
-    name: 'Covid19 web app',
-    img: './images/covid-img.jpeg',
-    description:
-      'a web app that gives you information about the covid 19 around the world',
-    liveLink: 'https://youmari.github.io/Covid-19/',
-    projectRepo: 'https://github.com/youmari/Covid-19',
-    technologies: ['html', 'css', 'javascript'],
-  },
-  {
-    name: 'Covid19 web app',
-    img: './images/covid-img.jpeg',
-    description:
-      'a web app that gives you information about the covid 19 around the world',
-    liveLink: 'https://youmari.github.io/Covid-19/',
-    projectRepo: 'https://github.com/youmari/Covid-19',
-    technologies: ['html', 'css', 'javascript'],
-  },
-  {
-    name: 'Covid19 web app',
-    img: './images/covid-img.jpeg',
-    description:
-      'a web app that gives you information about the covid 19 around the world',
-    liveLink: 'https://youmari.github.io/Covid-19/',
-    projectRepo: 'https://github.com/youmari/Covid-19',
-    technologies: ['html', 'css', 'javascript'],
-  },
+      'Simple Todo web app to organize your day',
+    liveLink: 'youmari.github.io/todo-list/dist/',
+    projectRepo: 'https://github.com/youmari/Todo-list',
+    technologies: ['html', 'css', 'javascript', 'webpack'],
+  }
 ];
 
 projectsData.forEach((element, i) => {
