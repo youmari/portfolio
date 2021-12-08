@@ -26,7 +26,7 @@ const projectsData = [
     img: './images/todo-list.png',
     description:
       'Simple Todo web app to organize your day',
-    liveLink: 'youmari.github.io/todo-list/dist/',
+    liveLink: 'https://youmari.github.io/Todo-list/dist/',
     projectRepo: 'https://github.com/youmari/Todo-list',
     technologies: ['html', 'css', 'javascript', 'webpack'],
   }
