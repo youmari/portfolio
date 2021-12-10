@@ -172,7 +172,7 @@ header {
 
 .projects-container {
   display: grid;
-  grid-template: repeat(2, 474px)/ 327px;
+  grid-template-columns: 1fr;
   gap: 24px;
 }
 
@@ -364,7 +364,7 @@ header {
 
   .projects-container {
     display: grid;
-    grid-template: repeat(3, 474px)/ 327px 327px;
+    grid-template-columns: repeat(2, 1fr);
     gap: 24px;
   }
 }
@@ -603,7 +603,7 @@ header {
 
   .projects-container {
     display: grid;
-    grid-template: repeat(2, 474px)/ repeat(3, 327px);
+    grid-template-columns: repeat(3, 1fr);
     gap: 24px;
   }
 
