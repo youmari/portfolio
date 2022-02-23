@@ -5,31 +5,67 @@ const links = document.querySelectorAll('.nav-link');
 const mobileScreen = window.matchMedia('(max-width: 1029px)');
 const projectsData = [
   {
-    name: 'Covid19 web app',
-    img: './images/covid-img.jpeg',
+    name: 'Foot Info',
+    img: './images/foot-info-screenshot.png',
     description:
-      'a web app that gives you information about the covid 19 around the world',
-    liveLink: 'https://youmari.github.io/Covid-19/',
-    projectRepo: 'https://github.com/youmari/Covid-19',
-    technologies: ['html', 'css', 'javascript'],
-  },
-  {
-    name: 'Face Detection web app',
-    img: './images/face-img.PNG',
-    description: 'web app that will recognize any face in the given image',
-    liveLink: 'https://youmari.github.io/Face-Detection/',
-    projectRepo: 'https://github.com/youmari/Face-Detection',
-    technologies: ['html', 'css', 'javascript', 'react'],
+      'foot-info is a web application where you can see information about football leagues filtered by Countries and standings for every league in the world',
+    liveLink: 'https://foot-info.herokuapp.com/',
+    projectRepo: 'https://github.com/youmari/foot-info',
+    technologies: ['React', 'Redux', 'Tailwind', 'Jest'],
   },
   {
     name: 'Todo list App',
     img: './images/todo-list.png',
-    description:
-      'Simple Todo web app to organize your day',
+    description: 'Simple Todo web app to organize your day',
     liveLink: 'https://youmari.github.io/Todo-list/dist/',
     projectRepo: 'https://github.com/youmari/Todo-list',
     technologies: ['html', 'css', 'javascript', 'webpack'],
-  }
+  },
+  {
+    name: 'Space travelers hub',
+    img: './images/space.png',
+    description:
+      'A web app where you can reserved Rockets that you like and see Missions about space travelers and you can join mission that you love it will be stored in your Profile page',
+    liveLink: 'https://space-travelers-hub-project.herokuapp.com/',
+    projectRepo: 'https://github.com/youmari/Space-travelers-hub',
+    technologies: ['React', 'Redux', 'thunk', 'Tailwind'],
+  },
+  {
+    name: 'BookStore',
+    img: 'https://s3.amazonaws.com/poly-screenshots.angel.co/Project/e8/1312851/dfec5158347d6bee4194fbfe7b913ce0-original.png',
+    description:
+      "Interactive web app where you can Store ,Add and Remove books to organize the books that you've read or the ones willing to read",
+    liveLink: 'https://youmari-book-store.herokuapp.com/',
+    projectRepo: 'https://github.com/youmari/bookStore',
+    technologies: ['React', 'css', 'Redux', 'webpack'],
+  },
+  {
+    name: 'Conference website',
+    img: './images/conf.png',
+    description:
+      'Website about a conference page built using javascript HTML and CSS',
+    liveLink: 'https://youmari.github.io/Capstone-project1/',
+    projectRepo: 'https://github.com/youmari/Capstone-project1',
+    technologies: ['html', 'css', 'javascript'],
+  },
+  {
+    name: 'NetFlackes',
+    img: './images/netflackes.png',
+    description:
+      'A website where you can show tv shows and their information and interact by liking your favorite tv shows and leaving a comment.',
+    liveLink: 'https://youmari.github.io/Js-capstone-project/dist',
+    projectRepo: 'https://github.com/youmari/Js-capstone-project',
+    technologies: ['html', 'css', 'javascript', 'webpack'],
+  },
+  {
+    name: 'Math magicians',
+    img: 'https://s3.amazonaws.com/poly-screenshots.angel.co/Project/29/1312852/8b25c692b6fbd09ec435dc1e60ee8f4e-original.png',
+    description:
+      'Interactive web app where you can use a normal calculation and read geek mathematicians quotes',
+    liveLink: 'https://youmari-math-magicians.herokuapp.com/',
+    projectRepo: 'https://github.com/youmari/math-magicians',
+    technologies: ['React', 'css', 'javascript', 'webpack'],
+  },
 ];
 
 projectsData.forEach((element, i) => {

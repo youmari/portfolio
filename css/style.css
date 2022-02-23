@@ -291,7 +291,6 @@ header {
   font-weight: normal;
   font-size: 20px;
   line-height: 28px;
-  margin: 0;
   padding: 0 40px;
   color: #172b4d;
 }
@@ -306,7 +305,6 @@ header {
   width: 159px;
   height: 48px;
   font-family: 'Inter', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
@@ -316,6 +314,8 @@ header {
   margin-top: 29px;
   cursor: pointer;
   border: none;
+  text-decoration: none;
+  padding: 15px;
 }
 
 .get-my-resume-btn:hover {
