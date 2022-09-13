@@ -21,7 +21,7 @@ A personal portfolio where you can show your background
 
 ## Getting Started
 
-this is simple portfolio where you can show you skills.
+this is a simple portfolio where you can show your skills.
 
 
 ## Authors
