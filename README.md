@@ -30,7 +30,7 @@ this is a simple portfolio where you can show your skills.
 
 - GitHub: [@youmari](https://github.com/youmari)
 - Twitter: [@yf_omari](https://twitter.com/yf_omari)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/yassine-omari-945114190/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/youmari/)
 
 ## Show your support
 
